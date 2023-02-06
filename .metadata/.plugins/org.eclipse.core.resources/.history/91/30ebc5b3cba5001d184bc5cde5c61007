@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+	h {
+		font-size: 4em;
+	}
+</style>
+<title>Servlet Communication</title>
+</head>
+<body>
+	<h>Hello Servlet</h>
+	<div>
+		<a href="">Click here to next page</a>
+	</div>
+</body>
+</html>

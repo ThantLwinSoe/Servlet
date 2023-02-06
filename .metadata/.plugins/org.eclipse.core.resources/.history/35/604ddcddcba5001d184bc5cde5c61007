@@ -1,0 +1,13 @@
+package com.jdc.tls;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+
+@WebServlet(urlPatterns = "/hello")
+public class HelloServlet extends HttpServlet{
+
+	private static final long serialVersionUID = 1L;
+	
+	
+
+}
