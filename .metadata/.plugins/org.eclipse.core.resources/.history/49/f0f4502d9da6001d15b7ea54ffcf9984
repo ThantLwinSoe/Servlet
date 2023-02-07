@@ -1,0 +1,10 @@
+package com.jdc.tls.include;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+@WebServlet("/footer")
+public class FOOTER extends HttpServlet{
+
+	private static final long serialVersionUID = 1L;
+
+}

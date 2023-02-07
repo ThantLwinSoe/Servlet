@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+h {
+	font-size: 4em;
+}
+.d_link {
+	
+	margin: 20px;
+	padding-top: 10px;
+	width: 100px;
+	height: 60px;
+	border-radius: 10px;
+	background: gray;
+	text-align: center;
+}
+.st_info {
+	margin-top: 20px;
+	width: 500px;
+	height: 500px;
+	background: #443236;
+}
+</style>
+<title>Servlet Communication</title>
+</head>
+<body>
+	<h>Students Member info</h>
+	<div class="d_link">
+		<a href="hello">Click here to next page</a>
+	</div>
+	<div class="st_info">
+		<table>
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Gender</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Aung Aung</td>
+					<td>23</td>
+					<td>Male</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Hla Hla</td>
+					<td>25</td>
+					<td>Femal</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Tin Aye</td>
+					<td>28</td>
+					<td>Male</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Maung Lwin</td>
+					<td>20</td>
+					<td>Male</td>
+				</tr>			
+			</tbody>
+		</table>	
+	</div>
+</body>
+</html>
