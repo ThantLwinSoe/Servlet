@@ -19,6 +19,6 @@
 			<td><%=str[1] %></td>
 		</tr>
 	</table>
-	<a href="index.jsp">Home link</a>
+	<a href="index.jsp?aName=<%=str[0]%>&aCourse=<%=str[1]%>">Home link</a>
 </body>
 </html>
