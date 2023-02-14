@@ -2,10 +2,19 @@ package com.jdc.tls.util;
 
 public class Books {
 
+
+
 	private int id;
 	private String name;
 	private int quantity;
 	private int price;
+	
+	public Books(String name, int quantity, int price) {
+		super();
+		this.name = name;
+		this.quantity = quantity;
+		this.price = price;
+	}
 
 	public int getId() {
 		return id;

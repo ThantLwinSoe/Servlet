@@ -24,7 +24,7 @@
 	<h1>Hello Everything is Ok!!!</h1>
 	
 	<div>
-		<form action="index.jsp">
+		<form action="addBook">
 			<table class="table">
 				<tr>
 					<td>Name</td>
@@ -42,7 +42,7 @@
 	</div>
 	<div class="home_buttom">
 		<a href="index.jsp">Home</a>
-		<a href="">ShowInfo</a>
+		<a href="StoreBooks.jsp">ShowInfo</a>
 	</div>
 	
 </body>

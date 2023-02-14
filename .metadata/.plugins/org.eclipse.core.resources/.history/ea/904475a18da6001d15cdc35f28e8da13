@@ -1,5 +1,0 @@
-package com.jdc.tls.connection;
-
-public class HelloForward {
-
-}

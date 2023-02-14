@@ -1,9 +1,0 @@
-package com.jdc.tls.connection;
-
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-
-@WebServlet(urlPatterns = "info")
-public class HelloForward extends HttpServlet{
-
-}

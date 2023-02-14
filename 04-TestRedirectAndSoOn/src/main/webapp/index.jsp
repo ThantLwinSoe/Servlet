@@ -19,6 +19,9 @@
 	.info,.show_books {
 		background-color: blue;
 	}
+	.table {
+		width: 500px;
+	}
 </style>
 </head>
 <body>
@@ -28,5 +31,16 @@
 		<div class="add_books"><a href="contOne">Add Books</a></div>
 		<div class="show_books">Show Books</div>
 	</nav>
+	<section>
+		<div>
+			<table class="table" border="1">
+				<tr>
+					<td>Name</td>
+					<td>Quantity</td>
+					<td>Price</td>
+				</tr>
+			</table>
+		</div>
+	</section>
 </body>
 </html>
