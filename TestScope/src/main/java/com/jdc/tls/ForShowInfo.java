@@ -45,7 +45,7 @@ public class ForShowInfo extends HttpServlet{
 		
 		if(store == null ) {
 			store = new StoreInfo();
-			log("store object is nulll +++++++++++++++++++++>>>");
+//			log("store object is nulll +++++++++++++++++++++>>>");
 		}		
 		store.addCar(info);
 			

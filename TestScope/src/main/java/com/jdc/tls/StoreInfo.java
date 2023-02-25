@@ -8,7 +8,9 @@ public class StoreInfo {
 	private List<CarInfo> list;
 	
 	public void addCar(CarInfo carInfo) {
-		list = new ArrayList<>();
+		if(null == list) {
+			list = new ArrayList<>();
+		}
 		list.add(carInfo);
 	}
 	

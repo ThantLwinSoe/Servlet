@@ -10,15 +10,15 @@
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
 <style type="text/css">
 .location {
-	margin: 10px 400px;
+	margin: 10px 30px;
 	padding: 10px auto;
 }
 
 .title-location {
-	margin-top: 100px;
+	margin-top: 20px;
 	margin-bottom: 5px;
-	margin-left: 400px;
-	margin-right: 400px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .b-location {
@@ -50,6 +50,7 @@
 			</ul>
 		</div>
 	</nav>
+	<div class="locate_form text-bg-warning p-3">
 	<div class="title-location alert alert-success">Hello Everyone!!!</div>
 	<div class="location bg-info-subtle border border-primary">
 		<table class="table table-striped">
@@ -93,6 +94,7 @@
 				<button type="submit" class="btn btn-success">Submit</button>
 			</div>
 	</form>
+	</div>
 	</div>
 </body>
 </html>
