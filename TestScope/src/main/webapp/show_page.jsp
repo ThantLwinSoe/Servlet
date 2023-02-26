@@ -11,10 +11,23 @@
 	.locate_button {
 		margin: 30px 300px 30px 500px;
 	}
+	.locate {
+		padding-top: 100px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 10px;
+	}
 </style>
 </head>
 <body class="bg-primary-subtle">
 	<% StoreInfo info = (StoreInfo) session.getAttribute("carInfo"); %>
+	
+	<div class="alert alert-warning">
+		Daily Duty Info
+	</div>
+	
+	<div class="locate">
+	
 	<table class="table table-dark" >
 		<tr>
 			<td>Car No:</td>
@@ -30,5 +43,6 @@
 		<% } %>
 	</table>
 	<a href="index.jsp" class="btn btn-primary locate_button" role="button">Go Home</a>
+	</div>
 </body>
 </html>
