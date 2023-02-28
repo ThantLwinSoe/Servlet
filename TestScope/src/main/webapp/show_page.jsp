@@ -22,8 +22,11 @@
 <body class="bg-primary-subtle">
 	<% StoreInfo info = (StoreInfo) session.getAttribute("carInfo"); %>
 	
-	<div class="alert alert-warning">
+	<div class="alert" style="background-color: #0F0F34; border-radius: 0; color: #02D945; display: flex;">
 		Daily Duty Info
+		<div style="color: #02D945; display: flex; margin-left: 50px;">
+			Testing
+		</div>
 	</div>
 	
 	<div class="locate">

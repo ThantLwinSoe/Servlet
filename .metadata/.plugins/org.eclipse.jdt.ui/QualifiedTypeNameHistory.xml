@@ -14,5 +14,12 @@
     <fullyQualifiedTypeName name="com.jdc.tls.StoreInfo"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.ServletContextListener"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebListener"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="com.jdc.tls.util.CarImpl"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
 </qualifiedTypeNameHistroy>

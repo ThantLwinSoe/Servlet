@@ -7,10 +7,12 @@ public class StoreInfo {
 	
 	private List<CarInfo> list;
 	
+	public StoreInfo() {
+		this.list = new ArrayList<CarInfo>();
+	}
+	
 	public void addCar(CarInfo carInfo) {
-		if(null == list) {
-			list = new ArrayList<>();
-		}
+		
 		list.add(carInfo);
 	}
 	

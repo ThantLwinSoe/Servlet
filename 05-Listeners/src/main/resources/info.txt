@@ -1,0 +1,4 @@
+Zayya Thein	Yangon	Bangkok	150000
+Shwe Wae Thu	Dawei	Bangkok	120000
+Mandalar Thar	Mandalay	Bangkok	200000
+Yazar Min	Mawlamyine	Bangkok	100000
